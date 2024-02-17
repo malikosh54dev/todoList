@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+body {
+  background: rgb(238, 174, 215);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 215, 1) 7%,
+    rgba(124, 94, 234, 1) 50%,
+    rgba(233, 60, 125, 1) 64%
+  );
+  margin: 250px 0 0 0;
+}
+
+.cards {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 450px;
+  height: 300px;
+  border-radius: 50px;
+  background: rgb(218, 131, 25);
+  background: radial-gradient(
+    circle,
+    rgba(218, 131, 25, 1) 7%,
+    rgba(234, 143, 94, 1) 48%,
+    rgba(224, 210, 103, 1) 80%
+  );
+}
+
+.cards input {
+  width: 300px;
+  height: 30px;
+}
+.cards button {
+  width: 150px;
+  height: 30px;
+  background: purple;
+  color: white;
+}
+.create {
+  width: 450px;
+  height: 400px;
+  background: rgb(209, 25, 218);
+  background: radial-gradient(
+    circle,
+    rgba(209, 25, 218, 1) 1%,
+    rgba(218, 25, 214, 1) 7%,
+    rgba(234, 143, 94, 1) 23%,
+    rgba(245, 53, 212, 1) 80%
+  );
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 20px 0 0 0;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+/* .ul {
+  width: 400px;
+  height: 60px;
+  background: white;
+} */
+.ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 22px;
+}
+.del-btn {
+  width: 50px;
+  height: 30px;
+  background: red;
+  flex-direction: column;
+  padding: 5px 5px 5px 5px;
+  color: white;
+}
+td {
+  height: 20px;
+  background: red;
+  flex-direction: column;
+}
